@@ -1,0 +1,80 @@
+.navbar {
+  background-color: #333;
+  padding: 1rem;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.menu-container {
+  position: relative;
+}
+
+.hamburger-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.hamburger-icon {
+  width: 32px;
+}
+
+.nav-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #444;  /* Slightly lighter than the navbar for contrast */
+  list-style-type: none;
+  padding: 1rem;
+  margin: 0.5rem 0 0 0; /* Added top margin */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  min-width: 200px;
+}
+
+.nav-item {
+  margin: 0.75rem 0;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #fff;  /* Changed to white for better contrast */
+  font-size: 24px;
+  font-weight: bold;
+  display: block;
+  padding: 0.5rem 1rem; /* Added padding for larger click area */
+  margin: 0.25rem 0; /* Added vertical margin between items */
+}
+
+/* Optional: Add hover effect */
+.nav-item a:hover {
+  color: #ddd;  /* Changed to light gray for hover effect */
+  background-color: #555;  /* Darker background on hover for contrast */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;  /* Changed to white for better contrast */
+}
+
+.logo-text {
+  letter-spacing: 1px;
+}
+
+.logo-icon {
+  width: 24px;
+  height: 24px;
+  background-color: #007bff;
+  border-radius: 50% 50% 0 50%;
+  transform: rotate(45deg);
+  margin: 0 5px;
+}
